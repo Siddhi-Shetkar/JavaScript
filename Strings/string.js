@@ -20,3 +20,11 @@ console.log(output);
 
 let college = `CBIT is \n a good college`;
 console.log(college);
+
+let str2 = "CBIT";
+let newstr = str2.toLowerCase();
+console.log(newstr);
+console.log(str2.slice(0,3));
+console.log(str2.concat(" is a good college")); //you can use + operator also to concatenate strings
+console.log(str2.replace("CBIT","Apna College"));
+console.log(str2.charAt(2));
